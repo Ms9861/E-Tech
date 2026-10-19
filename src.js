@@ -1,6 +1,6 @@
 import './style.css';
 // Paste the deployed Google Apps Script Web App URL ending in /exec here.
-const API_URL = 'https://script.google.com/macros/s/AKfycbxYcqEw5ZoKRqEUrN-KuCvgaKi8fuFw3DDSHz5ZzVUyru0Jeb6QBJjMLPtylmBx4BKD/exec';
+const API_URL = 'hhttps://script.google.com/macros/s/AKfycbzfe7xHtno70n0djZwc4zFTkkSPopQC4_JK4E7aBHjJxJRuOTZXgYm3Bf_w0A9iwOTq/exec';
 const configured = API_URL.startsWith('https://script.google.com/macros/s/') && API_URL.endsWith('/exec');
 const state={user:null,view:'home',busy:false,requests:[]};
 const $=s=>document.querySelector(s);
